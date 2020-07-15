@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <h1 id="title">Car Parking Live Status</h1> -->
+    <div class="container">
+        <p class="bouncer" id="title" contenteditable>Car Parking Live Status</p>
+    </div>
+    <span style="float: right;margin-bottom: 10px;">
+        <div align="center">Legend</div>
+        <table cellpadding="5">
+            <tr>
+                <td style="height:25px;width:25px;background-color: greenyellow;display: inline-block;">
+
+                </td>
+                <td style="display: inline-block;">
+                    Empty Slot
+                </td>
+            </tr>
+            <tr>
+                <td style="height:25px;width:25px;background-color: red;display: inline-block;">
+
+                </td>
+                <td style="display: inline-block;">
+                    Filled Slot
+                </td>
+            </tr>
+        </table>
+    </span>
+    <div class="wrap">
+        <div class="card st" id="s1">S1</div>
+        <div class="card st" id="s3">S3</div>
+        <div class="card st" id="s5">S5</div>
+        <div class="card lt" id="l1">L1</div>
+        <div class="card lt" id="l3">L3</div>
+        <div class="card sb" id="s2">S2</div>
+        <div class="card sb" id="s4">S4</div>
+        <div class="card sb" id="s6">S6</div>
+        <div class="card lb" id="l2">L2</div>
+        <div class="card lb" id="l4">L4</div>
+    </div>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-storage.js"></script>
+    <script src="../app.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/p
+    opper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+    
+</body>
+</html>

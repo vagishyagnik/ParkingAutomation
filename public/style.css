@@ -1,0 +1,82 @@
+/* html{
+    background: url("EntryPortal/background.jpg");
+} */
+
+/* body{
+    width: 50%;
+    margin: auto;
+} */
+
+body{
+    background-image: url('Pics/wp2732972.jpg');
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+#after_delEntry{
+    display: none;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: black 6px 6px;
+    position: fixed;
+    top: 6px;
+    right: 6px;
+    left: 6px;
+    bottom: 40px;
+    color: darkred;
+    text-align: center;
+    z-index: 100;
+}
+.card{
+    margin: 10px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+    height: 150px;
+    width: 150px;
+}
+
+.wrap{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.shadow{
+    margin-top: 80px;
+    color: red;
+    font-family:Mr Dafoe, sans-serif;
+    font-size:5em;
+    text-align:center;
+    text-shadow: 0 -3px 0 #333,
+      0 6px 8px rgba(0,0,0,.4),
+      0 9px 10px rgba(0,0,0,.15),
+      0 30px 10px rgba(0,0,0,.18),
+      0 15px 10px rgba(0,0,0,.21);
+}
+
+.shadowx{
+  display: inline-block;
+  background-color: inherit;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  /* font: normal 30px/1 "Aladin", Helvetica, sans-serif; */
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: rgba(48,48,48,1);
+  text-align: center;
+  text-transform: normal;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  white-space: pre;
+  text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67) ;
+}
+
+.card-body{
+    border-top: 0px;
+}

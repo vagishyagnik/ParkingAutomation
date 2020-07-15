@@ -1,0 +1,90 @@
+html{
+    background: url('wp2732962.jpg');
+}
+
+body{
+    background: inherit;
+    width: 50%;
+    margin: auto;
+    perspective: 800px;
+    perspective-origin: 50% 50%;
+    color: whitesmoke;
+}
+
+#title{
+    margin-top: 40px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    clear: both;
+}
+
+.card{
+    transition-duration: 3s;
+    margin:10px;
+    text-align: center;  
+    color: black;  
+}
+
+.sb,.st{
+    height: 160px;
+    width: 112px;
+    line-height: 9rem;
+    font-size: 18px;
+}
+
+.path{
+    height:180px;
+    background-color: lightgray;
+}
+
+.lb,.lt{
+    height:200px;
+    width:140px;
+    font-size: 20px;
+    line-height: 12rem;
+}
+
+.sb{
+    margin-top: 50px;
+}
+
+@import "compass/css3";
+
+.ball {
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: #FF0066;
+  margin-left: -5px;
+  transition-property: left, top;
+  transition-timing-function: cubic-bezier(.25,.1,.25,1), cubic-bezier(.25,.1,.25,1);
+}
+
+.container{
+    text-align: center;
+}
+
+p {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  font-size: 40px;
+  outline: none;
+}
+
+.word.lit{
+  font-style: italic;
+  text-shadow: blueviolet 3px 3px;
+  font-size: 60px;
+}
+
